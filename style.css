@@ -1,0 +1,142 @@
+/*Colors and Fonts */
+
+body{
+	background-color:#f9f9f9;
+	color : #575F7D;
+	font-family: 'Roboto', sans-serif;
+	text-justify:justify;
+	font-weight: lighter
+	letter-spacing : 5px;
+	line-height: 2;
+}
+
+h1{
+	color:rgb(66, 80, 199);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	letter-spacing: 1px;
+	font-size: 50px;
+	text-justify: center;
+}
+
+h2{
+	color: rgb(66, 80, 199);
+	font-family:Arial;
+}
+
+a{
+	text-decoration: none;
+	color : #575F7D;
+	font-weight: bold;
+	font-style: italic;
+}
+
+a:hover {
+	color:blue;
+}
+
+.fa-code {
+	color: black;
+}
+
+.fa-chart-line {
+	color: red;
+}
+
+.indent { 
+	text-indent: 100px
+fa-linkedin}
+
+
+/*Custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+.img-circle {
+	width: 200px;
+	border-radius: 100px;
+}
+
+.box-white {
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-blue {
+	background-color:rgb(66, 80, 199);
+	color: white;
+	padding: 10px 15px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color:black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 30px;
+}
+
+.fa-linkedin {
+	color: #0073B0;
+}
+
+.fa-facebook {
+	color: #4167B2;
+}
+
+.fa-linkedin:hover {
+	color: black;
+}
+
+.fa-facebook:hover {
+	color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+
